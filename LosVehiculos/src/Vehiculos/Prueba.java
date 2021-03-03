@@ -10,6 +10,7 @@ public class Prueba extends Vehiculo  {
 
 	private void ver(Vehiculo v) {
 		System.out.println("El vehiculo es de color "+v.getColor());
+		System.out.println("hola");
 		System.out.println("Tiene "+v.getNumRuedas()+" numero de ruedas");
 		System.out.println("Con una cilindrada de"+v.getCilindrada());
 		System.out.println("Y una potencia de"+v.getPotencia());
