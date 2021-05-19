@@ -42,7 +42,9 @@ public class Vehiculo {
 			this.cilindrada = cilin;
 			this.potencia = pot;
 		}
-
+		public void ver() {
+			System.out.println(this.color+" "+this.numeroRuedas+" "+this.cilindrada+" "+this.potencia);
+		}
 
 		public String getColor ( ) 
 		{
