@@ -22,7 +22,7 @@ public class Prueba extends Vehiculo  {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Vehiculo v1=new Vehiculo("verde",(byte) 5,(short) 3.4,(short)1.2);
-		Camion c1=new Camion("rojo",(byte) 4,(short) 2.4,(short)9.2);
+		Camion c1=new Camion("rojos",(byte) 4,(short) 2.4,(short)9.2);
 		v1.ver();
 	}
 
